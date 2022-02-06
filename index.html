@@ -5,52 +5,56 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>html-form-bandeiras-br</title>
-    <link href="light.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="lc_select.min.js"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+    <link href="1.css" rel="stylesheet" type="text/css">
+    
+    
   </head>
   <body>
     <form>
         <label></label>
-        <select name="simple" data-placeholder="Selecione algo por favor.." autocomplete="off">
-                <option value="ac" data-image="imagens/AC.png">Acre</option>
-                <option value="al" data-image="imagens/AL.png">Alagoas</option>
-                <option value="am" data-image="imagens/AM.png">Amazonas</option>
-                <option value="ap" data-image="imagens/AP.png">Amapá</option>
-                <option value="ba" data-image="imagens/BA.png">Bahia</option>
-                <option value="ce" data-image="imagens/CE.png">Ceará</option>
-                <option value="df" data-image="imagens/DF.png">Distrito Federal</option>
-                <option value="es" data-image="imagens/ES.png">Espírito Santo</option>
-                <option value="go" data-image="imagens/GO.png">Goiás</option>
-                <option value="ma" data-image="imagens/MA.png">Maranhão</option>
-                <option value="mg" data-image="imagens/MG.png">Minas Gerais</option>
-                <option value="ms" data-image="imagens/MS.png">Mato Grosso do Sul</option>
-                <option value="mt" data-image="imagens/MT.png">Mato Grosso</option>
-                <option value="pa" data-image="imagens/PA.png">Pará</option>
-                <option value="pb" data-image="imagens/PB.png">Paraíba</option>
-                <option value="pe" data-image="imagens/PE.png">Pernambuco</option>
-                <option value="pi" data-image="imagens/PI.png">Piauí</option>
-                <option value="pr" data-image="imagens/PR.png">Paraná</option>
-                <option value="rj" data-image="imagens/RJ.png">Rio de Janeiro</option>
-                <option value="rn" data-image="imagens/RN.png">Rio Grande do Norte</option>
-                <option value="ro" data-image="imagens/RO.png">Rondônia</option>
-                <option value="rr" data-image="imagens/RR.png">Roraima</option>
-                <option value="rs" data-image="imagens/RS.png">Rio Grande do Sul</option>
-                <option value="sc" data-image="imagens/SC.png">Santa Catarina</option>
-                <option value="se" data-image="imagens/SE.png">Sergipe</option>
-                <option value="sp" data-image="imagens/SP.png">São Paulo</option>
-                <option value="to" data-image="imagens/TO.png">Tocatins</option>
+        <select class="vodiapicker">
+                <option value="ac" data-thumbnail="imagens/AC.png">Acre</option>
+                <option value="al" data-thumbnail="imagens/AL.png">Alagoas</option>
+                <option value="am" data-thumbnail="imagens/AM.png">Amazonas</option>
+                <option value="ap" data-thumbnail="imagens/AP.png">Amapá</option>
+                <option value="ba" data-thumbnail="imagens/BA.png">Bahia</option>
+                <option value="ce" data-thumbnail="imagens/CE.png">Ceará</option>
+                <option value="df" data-thumbnail="imagens/DF.png">Distrito Federal</option>
+                <option value="es" data-thumbnail="imagens/ES.png">Espírito Santo</option>
+                <option value="go" data-thumbnail="imagens/GO.png">Goiás</option>
+                <option value="ma" data-thumbnail="imagens/MA.png">Maranhão</option>
+                <option value="mg" data-thumbnail="imagens/MG.png">Minas Gerais</option>
+                <option value="ms" data-thumbnail="imagens/MS.png">Mato Grosso do Sul</option>
+                <option value="mt" data-thumbnail="imagens/MT.png">Mato Grosso</option>
+                <option value="pa" data-thumbnail="imagens/PA.png">Pará</option>
+                <option value="pb" data-thumbnail="imagens/PB.png">Paraíba</option>
+                <option value="pe" data-thumbnail="imagens/PE.png">Pernambuco</option>
+                <option value="pi" data-thumbnail="imagens/PI.png">Piauí</option>
+                <option value="pr" data-thumbnail="imagens/PR.png">Paraná</option>
+                <option value="rj" data-thumbnail="imagens/RJ.png">Rio de Janeiro</option>
+                <option value="rn" data-thumbnail="imagens/RN.png">Rio Grande do Norte</option>
+                <option value="ro" data-thumbnail="imagens/RO.png">Rondônia</option>
+                <option value="rr" data-thumbnail="imagens/RR.png">Roraima</option>
+                <option value="rs" data-thumbnail="imagens/RS.png">Rio Grande do Sul</option>
+                <option value="sc" data-thumbnail="imagens/SC.png">Santa Catarina</option>
+                <option value="se" data-thumbnail="imagens/SE.png">Sergipe</option>
+                <option value="sp" data-thumbnail="imagens/SP.png">São Paulo</option>
+                <option value="to" data-thumbnail="imagens/TO.png">Tocatins</option>
         </select>
     
     </form>
 
-    <script>
-        new lc_select('select[name="simple"]', {
-            wrap_width: '230px',
-            min_for_search: 3,
-            pre_placeh_opt: true,
-        });
-        </script>
 
 
+    <div class="lang-select">
+      <button class="btn-select" value=""></button>
+      <div class="b">
+      <ul id="a"></ul>
+      </div>
+      </div>
+
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+      <script type="text/javascript" src="1.js"></script>
 </body>
 </html>

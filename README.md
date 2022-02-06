@@ -1,2 +1,3 @@
-# bandeiras-br
-Bandeiras dos estados brasileiros em png com 320 pixels de largura
+# html-form-bandeiras-br
+
+![Captura](./capturar.png)
